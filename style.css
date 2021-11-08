@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    
+}
+.gallery{
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.col>img{
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+}
+.col>img:hover{
+    filter: grayscale(0%);
+}
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+  
+
+
+   
